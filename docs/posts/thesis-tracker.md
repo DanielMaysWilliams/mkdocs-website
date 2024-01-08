@@ -45,4 +45,6 @@ dv.table(
 This will generate a table with a row for each note tagged with `thesis-chapter` and two columns: a link to the note, and a progress bar for the tasks within that note.
 A task in this case is any line starting with a checkbox `- [ ]`.
 
+There are some Dataview plugin settings you'll need to change to enable js blocks, so make sure those are turned on. 
+
 You could make the columns any number of things, they're defined in the `.map(c => [...])` line. `dataviewjs` blocks are basically just JavaScript, so steal some code of StackOverflow like I did and try stuff out! 
